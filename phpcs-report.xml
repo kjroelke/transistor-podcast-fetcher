@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.11.3">
+<file name="/Users/kjroelke/Local Sites/playground/app/public/wp-content/plugins/podcast-api/inc/api/class-podcast-api.php">
+ <error line="186" column="9" severity="warning" message="This comment is 55% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+</file>
+</checkstyle>
+

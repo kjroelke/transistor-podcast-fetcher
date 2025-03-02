@@ -1,0 +1,24 @@
+{
+	"name": "janchi-show/podcast-api",
+	"description": "A plugin to grab the latest episodes of the Janchi Show's Podcast",
+	"type": "project",
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"autoload": {
+		"classmap": [
+			"inc/"
+		]
+	},
+	"scripts": {
+		"phpcs": "phpcs --report-full --report-checkstyle=./phpcs-report.xml inc/ transistor-podcast-fetcher.php",
+		"phpcbf": "phpcbf inc/ transistor-podcast-fetcher.php"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "*",
+		"php-stubs/acf-pro-stubs": "^6.2"
+	}
+}

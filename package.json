@@ -1,0 +1,22 @@
+{
+	"name": "transistor-podcast-fetcher",
+	"version": "1.0.0",
+	"description": "Podcast API for Transistor",
+	"prettier": "@wordpress/prettier-config",
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+	],
+	"author": "K.J. Roelke",
+	"files": [
+		"inc",
+		"readme.md",
+		"LICENSE",
+		"transistor-podcast-fetcher.php"
+	],
+	"scripts": {
+		"build": "wp-scripts build",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	}
+}
