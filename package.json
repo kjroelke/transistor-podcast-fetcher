@@ -18,5 +18,8 @@
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start"
+	},
+	"dependencies": {
+		"@wordpress/scripts": "^30.12.0"
 	}
 }
