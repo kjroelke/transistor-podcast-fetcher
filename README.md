@@ -1,6 +1,6 @@
 # Transistor Podcast Fetcher
 
-A quick plugin that will fetch the latest episodes from the Transistor API and import them into WordPress.
+A quick plugin that will fetch the latest episodes from the Transistor API and import them into WordPress. Originally built for [The Janchi Show](https://janchishow.com), this plugin is being slowly refactored into a more robust, standalone plugin.
 
 # Changelog
 

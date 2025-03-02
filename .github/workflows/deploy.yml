@@ -1,0 +1,14 @@
+name: Deploy and Release
+on:
+    push:
+        branches: [main]
+
+jobs:
+    deploy-release:
+        name: Deploy and release
+        if: github.ref == 'refs/heads/main'
+        uses: kjroelke/common-github-actions/.github/workflows/deploy-release.yml@main
+        with:
+            should_build: false
+            plugin_name: transistor-podcast-fetcher
+        secrets: inherit
